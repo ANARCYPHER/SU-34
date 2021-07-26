@@ -1,0 +1,16 @@
+const http = require('http');
+
+const server = http.createServer((req, res) => {
+  console.log('request made');
+});
+
+// localhost is the default value for 2nd argument
+server.listen(5000, 'localhost', () => {
+  console.log('listening for requests on port 5000');
+});
+
+
+mongo//
+
+mongodb+srv://<username>:<password>@cluster0.f2poi.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+mongodb+srv://<unit731>:<503185>@cluster0.f2poi.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
